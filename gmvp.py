@@ -36,8 +36,8 @@ iii) To determine the weight that will minimizes the risk and maximizes the expe
 st.header("United State Stock Market in 2020")
 st.write("Historical Data: 1st of  January, 2020 - 26th of  November, 2020")
 
-RUA = Image.open("C:/Users/hp/Desktop/Streamlit App Documentation/Portfolio Optimazation/RUA.jpg")
-RUA_vol = Image.open("C:/Users/hp/Desktop/Streamlit App Documentation/Portfolio Optimazation/RUA_vol.jpg")
+RUA = Image.open("RUA.jpg")
+RUA_vol = Image.open("RUA_vol.jpg")
 
 st.image(RUA,caption="Daily Stock Price of Russell 300",use_column_width=True)
 st.image(RUA_vol,caption="Volatility Clustering of the Daily Returns", use_column_width=True)
@@ -69,10 +69,10 @@ Microsoft has the Highest Beta with value of 1.092308. The stock of Microsoft mo
 The Amazon, Facebook and Google stocks are less sensitive to the movement in the market as a whole but it is positively correlated to the market. they have beta value ranging in between 0 and 1.
 """)
 
-AMZN_vol = Image.open("C:/Users/hp/Desktop/Streamlit App Documentation/Portfolio Optimazation/AMZN_vol.jpg")
-FB_vol = Image.open("C:/Users/hp/Desktop/Streamlit App Documentation/Portfolio Optimazation/FB_vol.jpg")
-GOOGL_vol = Image.open("C:/Users/hp/Desktop/Streamlit App Documentation/Portfolio Optimazation/GOOGL_vol.jpg")
-MSFT_vol = Image.open("C:/Users/hp/Desktop/Streamlit App Documentation/Portfolio Optimazation/MSFT_vol.jpg")
+AMZN_vol = Image.open("AMZN_vol.jpg")
+FB_vol = Image.open("FB_vol.jpg")
+GOOGL_vol = Image.open("GOOGL_vol.jpg")
+MSFT_vol = Image.open("MSFT_vol.jpg")
 
 ticker = st.selectbox('Select Ticker',['AMZN','FB','GOOGL','MSFT'])
 if ticker == "AMZN":
@@ -93,7 +93,7 @@ st.header("The Global Minimum Variance Portfolio")
 st.write("The GVMP approach will be used in selecting the optimal weights for the four assets. MV portfolio is a non-constraint mean variance optimization strategy which is on the left most tip of the mean variance efficient frontier, the global minimum variance portfolio is the assets portfolio with lowest risk or variance on the minimum variance frontier.")
 
 st.subheader("The Regression Approach")
-reg = Image.open("C:/Users/hp/Desktop/Streamlit App Documentation/Portfolio Optimazation/reg.jpg")
+reg = Image.open("reg.jpg")
 st.image(reg,caption="Regression Summary",use_column_width=True)
 
 st.write("""
