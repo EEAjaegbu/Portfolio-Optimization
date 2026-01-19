@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-!pip install streamlit
+
 import pandas as pd
 import numpy as np
 import streamlit as st
@@ -40,3 +40,4 @@ if section == "GMVP Portfolio":
 
 # Finally, add a Thank You section at the end
 st.write("# Thank You")
+
